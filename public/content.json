@@ -1,0 +1,195 @@
+{
+    "content": [
+        {
+            "id": "3ab4c6bc-8920-11ec-a5e9-939419c56813",
+            "component": "Jumbotron",
+            "sectionName": "Intro",
+            "title": "<span class='bio-gray'>We make sure</span><br /> <span class='bio-green'>You eat</span><br /> <span class='bio-gray'>Healthy <span class='bio-orange'>food</span></span>",
+            "description": "LETS BEGIN YOUR JOURNEY OF A HEALTHY LIFESTYLE WITH HEALTHY FOOD LETS BEGIN YOUR JOURNEY OF A HEALTHY LIFESTYLE WITH HEALTHY FOOD",
+            "button": "FIND OUT MORE",
+            "buttonLink": "#services",
+            "image": "/vegetables.jpg",
+            "details": []
+        },
+        {
+            "id": "3ab4c6bc-8920-11ec-a5e9-939419c56814",
+            "sectionName": "Intersection",
+            "component": "Statistics",
+            "title": "",
+            "description": "",
+            "button": "",
+            "buttonLink": "",
+            "image": "",
+            "details": [
+                {
+                    "id": "tgfd4-4343-fdg4-35fg-5342",
+                    "title": "2K",
+                    "description": "Forms"
+                },
+                {
+                    "id": "tgfd4-4343-fdg4-35fg-5343",
+                    "title": "8K",
+                    "description": "Deliveries per month"
+                },
+                {
+                    "id": "tgfd4-4343-fdg4-35fg-5344",
+                    "title": "12K",
+                    "description": "Catering events per year"
+                }
+            ]
+        },
+        {
+            "id": "3ab4c6bc-8920-11ec-a5e9-939419c56815",
+            "component": "About",
+            "sectionName": "ABOUT US",
+            "title": "Cultivating Connections",
+            "description": "We are group of passionate professionals with the aim of creating bridges in the food industry. We offer a wide range of products and services to help our customers create, develop and launch their products. We have a strong background in food technology, consulting and marketing that allow us to offer a comprehensive project management solution from prototype creation to market launch. We are group of passionate professionals with the aim of creating bridges in the food industry. We offer a wide range of products and services to help our customers create, develop and launch their products. We have a strong background in food technology, consulting and marketing that allow us to offer a comprehensive project management solution from prototype creation to market launch.",
+            "button": "",
+            "buttonLink": "",
+            "image": "/vegetables.jpg",
+            "details": []
+        },
+        {
+            "id": "3ab4c6bc-8920-11ec-a5e9-939419c56816",
+            "sectionName": "Services",
+            "component": "Services",
+            "title": "SERVICES",
+            "description": "",
+            "button": "",
+            "buttonLink": "",
+            "image": "/vegetables.jpg",
+            "details": [
+                {
+                    "title": "Organic produced food",
+                    "description": "We are a big plant farm. We produce organically fresh food. Vegetables, fruit and herbs. We use no chemicals in this process. We sell these to individuals (at our farm), deliver to big companies, Or prepare vegan catering for the events. ",
+                    "image": ""
+                },
+                {
+                    "title": "Delivery",
+                    "description": "We are delivering fresh food in all EU countries. We have more than 2000 Farms across EU. Our cooling trucks will make sure veggies, fruit and/or Herbs are coming fresh at your address. Contact us for more details.",
+                    "image": ""
+                },
+                {
+                    "title": "Buy freshly picked at farm",
+                    "description": "We are a big plant farm. We produce organically fresh food. Vegetables, fruit and herbs. We use no chemicals in this process. We sell these to individuals (at our farm), deliver to big companies, Or prepare vegan catering for the events.",
+                    "image": ""
+                },
+                {
+                    "title": "Catering",
+                    "description": "We are a big plant farm. We produce organically fresh food. Vegetables, fruit and herbs. We use no chemicals in this process. We sell these to individuals (at our farm), deliver to big companies, Or prepare vegan catering for the events.",
+                    "image": ""
+                }
+            ]
+        },
+        {
+            "id": "3ab4c6bc-8920-11ec-a5e9-939419c56817",
+            "sectionName": "Blog",
+            "component": "Blog",
+            "title": "BLOG",
+            "description": "",
+            "button": "",
+            "buttonLink": "",
+            "image": "",
+            "details": [
+                {
+                    "title": "August 20, 2023",
+                    "description": "Bio Foods is a processor & exporter of organic products such as green teas, black teas, spices, herbs & other post-harvest food items in its own processing units.",
+                    "image": "/blog-1.jpg"
+                },
+                {
+                    "title": "July 05, 2023",
+                    "description": "Our farms are always on outside of a city locations. They are covered in Sun, surrounded by mountains.",
+                    "image": "/blog-2.jpg"
+                },
+                {
+                    "title": "June 12, 2023",
+                    "description": "Bio Foods is a processor & exporter of organic products such as green teas, black teas, spices, herbs & other post-harvest food items in its own processing units.",
+                    "image": "/blog-3.jpg"
+                },
+                {
+                    "title": "June 05, 2023",
+                    "description": "Our farms are always on outside of a city locations. They are covered in Sun, surrounded by mountains.",
+                    "image": "/blog-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "3ab4c6bc-8920-11ec-a5e9-939419c56818",
+            "sectionName": "Contact",
+            "component": "Contact",
+            "title": "",
+            "description": "You have questions? Craving healthy food? Hit us up!",
+            "button": "CONTACT US",
+            "buttonLink": "",
+            "image": "",
+            "details": [
+                {
+                    "title": "Email",
+                    "description": ""
+                },
+                {
+                    "title": "Your Message",
+                    "description": ""
+                }
+            ]
+        }
+    ],
+    "global": [
+        {
+            "id": "3ab4c6bc-8920-11ec-a5e9-939419c56812",
+            "component": "MainNavigation",
+            "sectionName": "Navigation",
+            "title": "",
+            "description": "",
+            "button": "",
+            "buttonLink": "",
+            "image": "/biofood.jpg",
+            "details": [
+                {
+                    "title": "HOME",
+                    "description": "#intro"
+                },
+                {
+                    "title": "ABOUT",
+                    "description": "#about"
+                },
+                {
+                    "title": "SERVICES",
+                    "description": "#services"
+                },
+                {
+                    "title": "BLOG",
+                    "description": "#blog"
+                },
+                {
+                    "title": "CONTACT",
+                    "description": "#contact"
+                }
+            ]
+        },
+        {
+            "id": "3ab4c6bc-8920-11ec-a5e9-939419c56819",
+            "component": "Footer",
+            "sectionName": "Footer",
+            "title": " BIO food GmbH Germany, 40213 Düsseldorf Tel. +49 170 000 000 00",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tellus nibh, pharetra pulvinar euismod id, suscipit id est. Duis eleifend erat accumsan justo accumsan, quis gravida velit sagittis. Vestibulum consequat tortor ac gravida vulputate.",
+            "button": "",
+            "buttonLink": "",
+            "image": "/biofood.jpg",
+            "details": [
+                {
+                    "title": "Facebook",
+                    "description": "https://facebook.com/healthy-food"
+                },
+                {
+                    "title": "Instagram",
+                    "description": "https://instagram.com/healthy-food"
+                },
+                {
+                    "title": "Whatsapp",
+                    "description": "+491781085160"
+                }
+            ]
+        }
+    ]
+}
