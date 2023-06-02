@@ -9,7 +9,7 @@ interface HeadingProps {
 const Heading: React.FC<HeadingProps> = ({ textPosition, textColor, children }: HeadingProps) => {
 
     return(
-        <h2 className={`text-9xl font-extrabold text-${textColor}-200 text-${textPosition} opacity-80`}>{children}</h2>
+        <h2 className={`md:text-9xl font-extrabold text-${textColor}-200 text-${textPosition} opacity-80`}>{children}</h2>
     );
 }
 

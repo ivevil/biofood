@@ -3,10 +3,6 @@ import { useEffect, useState } from 'react';
 import Components from './components'
 import Layout from './components/UI/Layout';
 
-// interface content {
-//   content: Array<{ }>
-// }
-
 const Home: React.FC = () => {
   const [data, setData] = useState<any | null>(null);
 
@@ -16,8 +12,7 @@ const Home: React.FC = () => {
       .then(json => setData(json as any));
   }, []);
 
- // if (isLoading) return <p>Loading...</p>;
-  if (!data) return <p>No profile data</p>;
+  if (!data) return <p>Loading...</p>;
   return (
       <Layout>
         {data.content.map((block : any) => Components(block))}
