@@ -47,8 +47,8 @@ function MainNavigation(props: any) {
 
     return (
         <header>
-            <nav className={`border-gray-200 fixed w-full z-50 ${stickyClass}`}>
-                <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl py-4 lg:px-24">
+            <nav className={`border-gray-200 opacity-80 fixed w-full z-50 ${stickyClass}`}>
+                <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl py-2 lg:px-24">
                     <ul className="flex flex-row items-center font-medium mt-0 mr-6 space-x-8 text-sm">
                         <MainNavigationItem href="#intro">
                             <Image src="/bio-logo.png" className="mr-3" alt="Flowbite Logo" width="130" height="80" />
