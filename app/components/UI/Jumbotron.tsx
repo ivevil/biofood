@@ -15,7 +15,7 @@ interface JumbotronProps {
 
 const Jumbotron: React.FC<JumbotronProps> = (props: JumbotronProps) => {
     return (
-        <section id="intro" className="bg-center bg-no-repeat bg-[url('/vegetables.jpg')] bg-blend-multiply">
+        <section id="intro" className="bg-center bg-cover bg-no-repeat bg-[url('/vegetables.jpg')] bg-blend-multiply">
             <div className="px-4 max-w-3xl py-24 lg:py-36">
                 <h1 className={`${poppins.className} mb-4 text-4xl lg:px-24 font-bold tracking-tight leading-none text-white md:text-5xl lg:text-6xl`} dangerouslySetInnerHTML={{ __html: props.block.title.replace(/(<? *script)/gi, 'illegalscript') }} ></h1>
                 <p className="mb-4 text-xs font-normal bio-green lg:px-24">{props.block.description}</p>

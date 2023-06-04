@@ -72,3 +72,31 @@ html{scroll-behavior:smooth}
 .text-right {
   text-align: right;
 }
+
+.text-10xl {
+  font-size: 9rem;
+}
+
+.text-11xl {
+  font-size: 10rem;
+}
+
+.bg-dark-orange {
+  background: #F4B882;
+}
+
+.services-card::after {
+  position: absolute;
+  bottom: -10px;
+  right: 0px;
+  width: 70px;
+  content: "+";
+  font-size: 54px;
+  font-weight: 200;
+  background: #F5A861;
+  font-family: var(--font-poppins);
+  border-top-left-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

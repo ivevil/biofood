@@ -118,7 +118,7 @@
             "sectionName": "Contact",
             "component": "Contact",
             "title": "",
-            "description": "You have questions? Craving healthy food? Hit us up!",
+            "description": "<div class='text-left text-xl'>You have questions?</div><div class='text-right'>Craving healthy food?</div><div class='text-left'>Hit us up!</div>",
             "button": "CONTACT US",
             "buttonLink": "",
             "image": "",

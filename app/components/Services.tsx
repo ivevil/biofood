@@ -17,10 +17,10 @@ interface ServicesProps {
 
 const Services: React.FC<ServicesProps> = (props: ServicesProps) => {
     return (
-        <div className="services bg-orange-300 p-10" id="services">
+        <div className="services bg-bio-orange p-10" id="services">
             <Heading textPosition="right" textColor="lime">{props.block.title}</Heading>
-            <div className="max-w-5xl p-6" style={{ margin: "0 auto" }}>
-                <div className="grid grid-cols-2 gap-4 -mt-16">
+            <div className="max-w-6xl" style={{ margin: "0 auto" }}>
+                <div className="grid grid-cols-2 gap-2 -mt-32">
                     {props.block.details.map((detail, index) => {
                         return (
                             <ServicesCard detailTitle={detail.title} detailDescription={detail.description} key={index} />

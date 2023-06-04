@@ -1,7 +1,7 @@
 function Form() {
     return (
         <form>
-            <div id="contact" className="contact px-4 mx-auto max-w-sm py-24 lg:py-24 flex flex-col space-y-4">
+            <div id="contact" className="contact px-4 mx-auto max-w-sm py-4 pb-10 flex flex-col space-y-4">
                 <div>
                     <input type="email" id="email" className="bg-gray-50 border text-gray-900 text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Email" required />
                 </div>

@@ -1,3 +1,4 @@
+import { poppins } from '../../utils/fonts';
 interface ServicesCardProps {
     detailTitle: string,
     detailDescription: string
@@ -5,9 +6,9 @@ interface ServicesCardProps {
 
 const ServicesCard: React.FC<ServicesCardProps> = ({ detailTitle, detailDescription }: ServicesCardProps) => {
     return (
-        <div className="block p-6 bg-white rounded-lg shadow dark:bg-orange-200 z-10">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{detailTitle}</h5>
-            <p className="font-normal text-white-700 dark:text-white-400">{detailDescription}</p>
+        <div className={`${poppins.className} m-8 services-card relative block p-6 bg-dark-orange rounded-3xl z-10`}>
+            <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{detailTitle}</h5>
+            <p className="font-normal text-sm text-white-700 dark:text-white-400 pr-14">{detailDescription}</p>
         </div>
     );
 }
