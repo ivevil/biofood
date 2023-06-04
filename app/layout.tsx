@@ -1,15 +1,5 @@
 import './globals.css'
-import { Poppins, Roboto } from 'next/font/google'
-
-const poppins = Poppins({
-  weight: '400',
-  subsets: ['latin'],
-});
-
-const roboto = Roboto({
-  weight: '400',
-  subsets: ['latin'],
-});
+import { roboto } from './utils/fonts';
 
 export const metadata = {
   title: 'Bio Food',
