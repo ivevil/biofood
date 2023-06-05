@@ -95,7 +95,7 @@ function MainNavigation(props: any) {
                     </button>
                 </div>
                 <div className={`${toggleClass} mobile-menu`}>
-                    <ul className="">
+                    <ul className="bg-white p-10">
                         {navItems.map(navItem => (
                              <MainNavigationItem onClick={closeMenu} key={navItem.name} href={navItem.href}>{navItem.name}</MainNavigationItem>
                         ))}

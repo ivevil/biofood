@@ -15,7 +15,7 @@ const StatsCard: React.FC<StatsCardProps> = ({ detailTitle, detailDescription }:
 
     const duration = 5;
     return (
-        <div className="statscard max-w-sm p-6" ref={ref}>
+        <div className="statscard max-w-sm p-2 sm:p-6 text-center" ref={ref}>
             <div className="inline-flex text-center">
                 <CountUp
                     start={0}
@@ -24,10 +24,10 @@ const StatsCard: React.FC<StatsCardProps> = ({ detailTitle, detailDescription }:
                     separator='.'
                     useEasing={true}>
                     {({ countUpRef }) => (
-                        <h5 className="mb-2 md:text-8xl font-semibold tracking-tight text-gray-900 dark:text-white" ref={countUpRef as React.RefObject<HTMLDivElement>} />
+                        <h5 className="mb-2 text-7xl md:text-8xl font-semibold tracking-tight text-gray-900 dark:text-white" ref={countUpRef as React.RefObject<HTMLDivElement>} />
                     )}
                 </CountUp>
-                <h5 className="mb-2 md:text-8xl font-semibold tracking-tight text-gray-900 dark:text-white">K</h5>
+                <h5 className="mb-2 text-7xl md:text-8xl font-semibold tracking-tight text-gray-900 dark:text-white">K</h5>
             </div>
             <style jsx>{`
 				.delay {

@@ -4,9 +4,9 @@ const Footer: React.FC = () => {
     return (
         <footer className="bg-white">
             <div className="mx-auto w-full flex flex-col">
-                <div className="bg-white h-20 w-5/6 mx-auto sm:flex sm:items-center sm:justify-between">
+                <div className="bg-white h-20 w-5/6 mx-auto sm:flex items-center justify-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400"></span>
-                    <div className="flex mt-4 space-x-4 sm:justify-center items-center sm:mt-0">
+                    <div className="flex mt-4 space-x-4 justify-center items-center sm:mt-0">
                         <a href="#" className="text-white-200 flex items-center justify-center border-radius rounded-full w-14 h-14 hover:bg-gray-900 dark:hover:text-gray-900">
                             <svg className="w-18 h-18 bg-white" fill="#F5A861" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd" /></svg>
                             <span className="sr-only">Facebook page</span>
@@ -42,9 +42,9 @@ const Footer: React.FC = () => {
                     </div>
                 </div>
                 <div className="w-full">
-                    <hr className="w-5/6 my-6 border-gray-400 sm:mx-auto" />
+                    <hr className="w-5/6 my-6 border-gray-400 mx-auto" />
                 </div>
-                <span className="w-5/6 block text-sm bio-gray mx-auto sm:text-right mb-6">{date.getFullYear()} - All Rights Reserved.</span>
+                <span className="w-5/6 block text-sm bio-gray mx-auto text-center sm:text-right mb-6">{date.getFullYear()} - All Rights Reserved.</span>
             </div>
         </footer>
     );
