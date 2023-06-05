@@ -92,22 +92,26 @@
             "image": "",
             "details": [
                 {
-                    "title": "August 20, 2023",
+                    "title": "What is Bio Food",
+                    "date": "August 20, 2023",
                     "description": "Bio Foods is a processor & exporter of organic products such as green teas, black teas, spices, herbs & other post-harvest food items in its own processing units.",
                     "image": "/blog-1.jpg"
                 },
                 {
-                    "title": "July 05, 2023",
+                    "title": "Few thing about our farms",
+                    "date": "July 05, 2023",
                     "description": "Our farms are always on outside of a city locations. They are covered in Sun, surrounded by mountains.",
                     "image": "/blog-2.jpg"
                 },
                 {
-                    "title": "June 12, 2023",
+                    "title": "Processing and exporting",
+                    "date": "June 12, 2023",
                     "description": "Bio Foods is a processor & exporter of organic products such as green teas, black teas, spices, herbs & other post-harvest food items in its own processing units.",
                     "image": "/blog-3.jpg"
                 },
                 {
-                    "title": "June 05, 2023",
+                    "title": "Locations of our farms",
+                    "date": "June 05, 2023",
                     "description": "Our farms are always on outside of a city locations. They are covered in Sun, surrounded by mountains.",
                     "image": "/blog-4.jpg"
                 }
