@@ -52,15 +52,15 @@ function MainNavigation(props: any) {
         },
         {
             "name": "SERVICES",
-            "href": "#services"
+            "href": "/#services"
         },
         {
             "name": "BLOG",
-            "href": "#blog"
+            "href": "/#blog"
         },
         {
             "name": "CONTACT",
-            "href": "#contact"
+            "href": "/#contact"
         },
     ]
 
