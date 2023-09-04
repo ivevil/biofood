@@ -8,14 +8,16 @@ declare global {
     buttonLink: string,
     component: string,
     description: string,
-    details: Array<{ title: string; date: string; description: string; image: string; }>
+    details: Array<{
+        id: Key | null | undefined; title: string; date: string; description: string; image: string; 
+}>
     id: string,
     image: string,
     sectionName: string,
     title: string
   }
   interface IPost {
-    slug: string,
+    slug?: string,
     image: string,
     title: string,
     date: string,
