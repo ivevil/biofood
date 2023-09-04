@@ -60,21 +60,25 @@
             "image": "/vegetables.jpg",
             "details": [
                 {
+                    "slug": "organic-produced-food",
                     "title": "Organic produced food",
                     "description": "We are a big plant farm. We produce organically fresh food. Vegetables, fruit and herbs. We use no chemicals in this process. We sell these to individuals (at our farm), deliver to big companies, Or prepare vegan catering for the events. ",
                     "image": ""
                 },
                 {
+                    "slug": "delivery",
                     "title": "Delivery",
                     "description": "We are delivering fresh food in all EU countries. We have more than 2000 Farms across EU. Our cooling trucks will make sure veggies, fruit and/or Herbs are coming fresh at your address. Contact us for more details.",
                     "image": ""
                 },
                 {
-                    "title": "Buy freshly picked at farm",
+                    "slug": "buy-freshly-freshly-at-farm",
+                    "title": "Buy freshly freshly at farm",
                     "description": "We are a big plant farm. We produce organically fresh food. Vegetables, fruit and herbs. We use no chemicals in this process. We sell these to individuals (at our farm), deliver to big companies, Or prepare vegan catering for the events.",
                     "image": ""
                 },
                 {
+                    "slug": "catering",
                     "title": "Catering",
                     "description": "We are a big plant farm. We produce organically fresh food. Vegetables, fruit and herbs. We use no chemicals in this process. We sell these to individuals (at our farm), deliver to big companies, Or prepare vegan catering for the events.",
                     "image": ""
@@ -92,25 +96,37 @@
             "image": "",
             "details": [
                 {
+                    "slug": "what-is-bio-food",
                     "title": "What is Bio Food",
+                    "author": "Max A.",
+                    "authorRole": "Graphic Designer, educator & CEO BioFood",
                     "date": "August 20, 2023",
                     "description": "Bio Foods is a processor & exporter of organic products such as green teas, black teas, spices, herbs & other post-harvest food items in its own processing units.",
                     "image": "/blog-1.jpg"
                 },
                 {
+                    "slug": "few-thing-about-our-farms",
                     "title": "Few thing about our farms",
+                    "author": "Melieane W.",
+                    "authorRole": "Digital Producer, Ecommerce & Partner BioFood",
                     "date": "July 05, 2023",
                     "description": "Our farms are always on outside of a city locations. They are covered in Sun, surrounded by mountains.",
                     "image": "/blog-2.jpg"
                 },
                 {
+                    "slug": "processing-and-exporting",
                     "title": "Processing and exporting",
+                    "author": "Melieane W.",
+                    "authorRole": "Digital Producer, Ecommerce & Partner BioFood",
                     "date": "June 12, 2023",
                     "description": "Bio Foods is a processor & exporter of organic products such as green teas, black teas, spices, herbs & other post-harvest food items in its own processing units.",
                     "image": "/blog-3.jpg"
                 },
                 {
+                    "slug": "locations-of-our-farms",
                     "title": "Locations of our farms",
+                    "author": "Max A.",
+                    "authorRole": "Graphic Designer, educator & CEO BioFood",
                     "date": "June 05, 2023",
                     "description": "Our farms are always on outside of a city locations. They are covered in Sun, surrounded by mountains.",
                     "image": "/blog-4.jpg"

@@ -2,17 +2,7 @@ import BlogCard from "./BlogCard";
 import Heading from "./UI/Heading";
 
 interface BlogProps {
-    block: {
-        button: string,
-        buttonLink: string,
-        component: string,
-        description: string,
-        details: Array<{ title: string; date:string; description: string; image: string; }>
-        id: string,
-        image: string,
-        sectionName: string,
-        title: string
-    }
+    block: IComponent
 }
 
 const Blog: React.FC<BlogProps> = (props: BlogProps) => {
@@ -25,7 +15,7 @@ const Blog: React.FC<BlogProps> = (props: BlogProps) => {
                 <div className="w-3/4 flex flex-end flex-wrap justify-end">
                     {props.block.details.map((detail, index) => {
                         return (
-                            <BlogCard detailDate={detail.date} detailImage={detail.image} detailTitle={detail.title} detailDescription={detail.description} key={index} />
+                            <BlogCard post={detail} key={index} />
                         )
                     })}
                     </div>

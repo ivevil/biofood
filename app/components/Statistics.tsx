@@ -1,17 +1,7 @@
 import StatsCard from "./UI/StatsCard";
 
 interface StatisticsProps {
-    block: {
-        button: string,
-        buttonLink: string,
-        component: string,
-        description: string,
-        details: Array<{ title: string; description: string; id: string; }>
-        id: string,
-        image: string,
-        sectionName: string,
-        title: string
-    }
+    block: IComponent
 }
 
 const Statistics: React.FC<StatisticsProps> = (props: StatisticsProps) => {

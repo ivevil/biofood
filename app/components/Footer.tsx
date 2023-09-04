@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
                     </div>
                     <div className="flex items-center mt-6">
                         <p className="text-bold bio-gray text-center max-w-xl">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tellus nibh, pharetra pulvinar euismod id, suscipit id est. Duis eleifend erat accumsan justo accumsan, quis gravida velit sagittis. Vestibulum consequat tortor ac gravida vulputate.
+                        BioFood is a group of passionate professionals with the aim of creating bridges in the food industry. We offer a wide range of products and services to help our customers create, develop and launch their products.
                         </p>
                     </div>
                 </div>

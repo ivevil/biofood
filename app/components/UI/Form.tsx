@@ -16,13 +16,8 @@ function Form() {
             </div>
         );
     }
-    
     return (
-        <form
-            action={process.env.FORM_ENDPOINT}
-            onSubmit={handleSubmit}
-            method="POST"
-        >
+        <form onSubmit={handleSubmit} action={process.env.NEXT_PUBLIC_FORM_ENDPOINT} method="post" acceptCharset="UTF-8">
             <div id="contact" className="contact px-4 mx-auto max-w-sm py-4 pb-10 flex flex-col space-y-4">
                 <div>
                     <input type="email" name="email" id="email" className="bg-gray-50 border text-black text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-700 placeholder-gray-700 dark:text-black-100 dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Email" required />
