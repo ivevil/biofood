@@ -1,4 +1,4 @@
-"use client"; // This is a client component 
+'use client';
 import { useEffect, useState } from 'react';
 import Components from './components'
 import Layout from './components/UI/Layout';
