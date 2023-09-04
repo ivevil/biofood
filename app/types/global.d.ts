@@ -9,8 +9,8 @@ declare global {
     component: string,
     description: string,
     details: Array<{
-        id: Key | null | undefined; title: string; date: string; description: string; image: string; 
-}>
+      id: Key | null | undefined; title: string; date: string; description: string; body: string; image: string;
+    }>
     id: string,
     image: string,
     sectionName: string,
@@ -21,6 +21,7 @@ declare global {
     image: string,
     title: string,
     date: string,
+    body: string,
     description: string
   }
 }

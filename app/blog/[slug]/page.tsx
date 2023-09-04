@@ -30,15 +30,15 @@ export default function Page({
                 <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
                   <img className="mr-4 w-16 h-16 rounded-full" src="https://flowbite.com/docs/images/people/profile-picture-2.jpg" alt="Jese Leos" />
                   <div>
-                    <a href="#" rel="author" className="text-xl font-bold text-gray-900 dark:text-white">{currentPost.author}</a>
+                    <a href="#" rel="author" className="text-xl font-bold text-gray-900">{currentPost.author}</a>
                     <p className="text-base font-light text-gray-500 dark:text-gray-400">{currentPost.authorRole}</p>
                     <p className="text-base font-light text-gray-500 dark:text-gray-400"><time title={currentPost.date}>{currentPost.date}</time></p>
                   </div>
                 </div>
               </address>
-              <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">Best practices for successful prototypes</h1>
+              <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl">{currentPost.title}</h1>
             </header>
-            <p className="lead text-black">{currentPost.description}</p>
+            <p className="lead text-black">{currentPost.body}</p>
           </article>
         </div>
       </main>
