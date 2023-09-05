@@ -26,7 +26,7 @@ export default function Page({
         <div className="flex justify-between mx-auto">
           <article className="mx-auto w-full format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <img className="mr-4 w-full h-64 object-cover" src={currentPost.image} alt="Jese Leos" />
-            <div className="w-full max-w-3xl mx-auto w-full format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
+            <div className="w-full max-w-3xl mx-auto sm:px-10 w-full format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
               <header className="mb-4 lg:mb-6 pt-10 not-format">
                 <address className="flex items-center mb-6 not-italic">
                   <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
