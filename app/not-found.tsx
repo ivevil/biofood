@@ -4,7 +4,6 @@ import Layout from '@/app/components/UI/Layout'
 
 export default function NotFound() {
     return (
-        <Layout>
             <div className="bg-white">
                 <div className="container flex justify-center items-center flex-col min-h-screen px-10 py-12 mx-auto">
                         <p className="text-sm font-medium bio-green">404 error</p>
@@ -19,6 +18,5 @@ export default function NotFound() {
                         </div>
                 </div>
             </div>
-        </Layout>
     )
 }
