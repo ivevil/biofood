@@ -40,7 +40,7 @@ const StatsCard: React.FC<StatsCardProps> = ({ detailTitle, detailDescription }:
 					transform: translate3d(0, 0, 0);
 				}
 			`}</style>
-            <p className="mb-3 font-bold text-sm text-center text-white-500 dark:text-white-400">{detailDescription}</p>
+            <p className="mb-3 font-bold text-sm text-center text-white">{detailDescription}</p>
         </div>
     );
 }
