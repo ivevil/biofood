@@ -15,10 +15,10 @@ const BlogCard: React.FC<BlogCardProps> = ({ post }: BlogCardProps) => {
                 </a>
                 <div className="px-6 py-2">
                     <div className="flex justify-between">
-                        <h5 className="mt-4 mb-2 text-sm font-bold tracking-tight text-gray-900 dark:text-gray-500">{post.title}</h5>
-                        <h6 className="mt-4 mb-2 text-right text-xs tracking-tight text-gray-900 dark:text-gray-500">{post.date}</h6>
+                        <h5 className="mt-4 mb-2 text-sm font-bold tracking-tight text-gray-900">{post.title}</h5>
+                        <h6 className="mt-4 mb-2 text-right text-xs tracking-tight text-gray-900">{post.date}</h6>
                     </div>
-                    <p className="mb-7 font-normal text-sm text-gray-700 dark:text-gray-500">{post.description}</p>
+                    <p className="mb-7 font-normal text-sm text-gray-700">{post.description}</p>
                 </div>
             </div>
         </Link>

@@ -24,10 +24,10 @@ const StatsCard: React.FC<StatsCardProps> = ({ detailTitle, detailDescription }:
                     separator='.'
                     useEasing={true}>
                     {({ countUpRef }) => (
-                        <h5 className="mb-2 text-7xl md:text-8xl font-semibold tracking-tight text-gray-900 dark:text-white" ref={countUpRef as React.RefObject<HTMLDivElement>} />
+                        <h5 className="mb-2 text-7xl md:text-8xl font-semibold tracking-tight text-gray-900 text-white" ref={countUpRef as React.RefObject<HTMLDivElement>} />
                     )}
                 </CountUp>
-                <h5 className="mb-2 text-7xl md:text-8xl font-semibold tracking-tight text-gray-900 dark:text-white">K</h5>
+                <h5 className="mb-2 text-7xl md:text-8xl font-semibold tracking-tight text-gray-900 text-white">K</h5>
             </div>
             <style jsx>{`
 				.delay {
