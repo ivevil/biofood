@@ -61,6 +61,10 @@ html{scroll-behavior:smooth}
   color: #F5A861;
 }
 
+.bg-bio-green {
+  background: #60BC52;
+}
+
 .bg-bio-orange {
   background: #F5A861;
 }
@@ -94,6 +98,7 @@ html{scroll-behavior:smooth}
   font-size: 54px;
   font-weight: 200;
   background: #F5A861;
+  color: white;
   font-family: var(--font-poppins);
   border-top-left-radius: 10px;
   display: flex;
