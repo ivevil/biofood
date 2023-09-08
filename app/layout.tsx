@@ -4,8 +4,12 @@ import { roboto } from './utils/fonts';
 // import Favicon from './components/Favicon';
 
 export const metadata = {
-  title: 'Bio Food',
-  description: 'We make sure You eat Healthy food',
+  title: 'Bio Food - Try out it today',
+  description: 'We make sure You eat Healthy food. Every day, every night. So fast at your table.',
+  keywords: ['Bio food', 'Biological food', 'Bio diets', 'Food bio', 'Bio vegetables', 'Bio organic food', 'Bio produce', 'Bio food products', 'Bio food company', 'Superfood bio', 'Bio raw salads', 'Bio products food', 'Bio organic protein', 'Bio healthy food', 'Bio veggie company'],
+  openGraph: {
+    images: '/bio-logo.png',
+  },
 }
 
 export default function RootLayout({

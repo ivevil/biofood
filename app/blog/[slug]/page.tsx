@@ -42,7 +42,6 @@ export default function Page({
               </header>
               <p className="lead text-black">{currentPost.body}</p>
             </div>
-
           </article>
         </div>
       </main>
