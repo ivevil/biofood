@@ -6,7 +6,7 @@ import { roboto } from './utils/fonts';
 export const metadata = {
   title: 'Bio Food - Try out it today',
   description: 'We make sure You eat Healthy food. Every day, every night. So fast at your table.',
-  keywords: ['Bio food online shop', 'Bio food', 'Biological food', 'Bio diets', 'Food bio', 'Bio vegetables', 'Bio organic food', 'Bio produce', 'Bio food products', 'Bio food company', 'Bio food delivery', 'Bio farm organic eggs', 'Bio products food', 'Bio organic protein', 'Bio healthy food', 'Bio veggie company'],
+  keywords: ['Bio foods', 'Bio organic products', 'Bio food products', 'Bio food company', 'Bio organic shop', 'Bio about food', 'Bio for food', 'Bio products food', 'Bio food shop', 'Bio in food', 'Bio organic market', 'Bio organic store', 'Bio veggies', 'Bio food online shop', 'Bio food market'],
   openGraph: {
     images: '/bio-logo.png',
   },
