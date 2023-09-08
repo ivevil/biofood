@@ -6,9 +6,9 @@ interface BlogCardProps {
 }
 
 const BlogCard: React.FC<BlogCardProps> = ({ post }: BlogCardProps) => {
-    const slugTitle = post.title.toLowerCase().replace(/\s+/g, '-');
+    // const slugTitle = post.title.toLowerCase().replace(/\s+/g, '-');
     return (
-        <Link href={`/blog/${slugTitle}`}>
+        <Link href={`/blog/${post.slug}`}>
             <div className="blog-card m-3 bg-white border border-gray-200 rounded-3xl shadow dark:bg-white-800 dark:border-gray-100">
                 <a href="#">
                     <Image className="rounded-t-3xl max-h-44 object-cover" src={post.image} alt="" width="600" height="100" />
