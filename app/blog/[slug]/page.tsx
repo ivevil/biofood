@@ -40,7 +40,7 @@ export default function Page({
                 </address>
                 <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl">{currentPost.title}</h1>
               </header>
-              <p className="lead text-black"><div dangerouslySetInnerHTML={ {__html: currentPost.body} } /></p>
+              <div className="lead text-black" dangerouslySetInnerHTML={ {__html: currentPost.body} } />
             </div>
           </article>
         </div>
