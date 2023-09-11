@@ -6,7 +6,7 @@ interface ContactProps {
     block: IComponent
 }
 
-const Contact: React.FC<ContactProps> = (props: ContactProps) => {
+const Contact = ( props : ContactProps) => {
     return (
         <div className="contact bg-orange-300" id="contact">
             <Heading textColor="orange" textPosition="left">CONTACT</Heading>

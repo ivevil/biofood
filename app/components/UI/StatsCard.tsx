@@ -15,6 +15,7 @@ const StatsCard: React.FC<StatsCardProps> = ({ detailTitle, detailDescription }:
 
     const duration = 5;
     return (
+        <>
         <div className="statscard max-w-sm p-2 sm:p-6 text-center" ref={ref}>
             <div className="inline-flex text-center">
                 <CountUp
@@ -42,6 +43,9 @@ const StatsCard: React.FC<StatsCardProps> = ({ detailTitle, detailDescription }:
 			`}</style>
             <p className="mb-3 font-bold text-sm text-center text-white">{detailDescription}</p>
         </div>
+        <hr key={`key-${Math.random()}`} className="w-36 h-1 mx-auto my-4 bg-gray-100 sm:rotate-90 border-0 rounded md:my-10 dark:bg-white" />
+        {/* {props.block.details.length - 1 > index ? <hr key={`key-${Math.random()}`} className="w-36 h-1 mx-auto my-4 bg-gray-100 sm:rotate-90 border-0 rounded md:my-10 dark:bg-white" /> : ""} */}
+        </>
     );
 }
 

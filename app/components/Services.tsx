@@ -5,7 +5,7 @@ interface ServicesProps {
     block: IComponent
 }
 
-const Services: React.FC<ServicesProps> = (props: ServicesProps) => {
+const Services = ( props : ServicesProps) => {
     return (
         <div className="services bg-bio-orange sm:p-10" id="services">
             <Heading textPosition="right" textColor="lime">{props.block.title}</Heading>

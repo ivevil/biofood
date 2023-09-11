@@ -5,7 +5,7 @@ interface BlogProps {
     block: IComponent
 }
 
-const Blog: React.FC<BlogProps> = (props: BlogProps) => {
+const Blog = ( props : BlogProps) => {
     return (
         <>
             <div className="blog bg-center bg-no-repeat bg-[url('/vegetables-twisted.jpg')] bg-blend-multiply bg-cover py-8" style={{ margin: "0 auto" }} id="blog">

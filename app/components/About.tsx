@@ -5,7 +5,7 @@ interface AboutProps {
     block: IComponent
 }
 
-const About: React.FC<AboutProps> = (props: AboutProps) => {
+const About = ( props : AboutProps) => {
     return (
         <section id="about" className="about bg-cover bg-center bg-no-repeat bg-[url('/vegetables-rotated.jpg')] bg-blend-multiply">
             <Heading textColor="lime" textPosition="left">{props.block.sectionName}</Heading>

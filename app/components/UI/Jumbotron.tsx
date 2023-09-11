@@ -1,19 +1,10 @@
 import { poppins } from '@/app/utils/fonts';
+
 interface JumbotronProps {
-    block: {
-        button: string,
-        buttonLink: string,
-        component: string,
-        description: string,
-        details: Array<{ title: string; description: string; }>
-        id: string,
-        image: string,
-        sectionName: string,
-        title: string
-    }
+    block: IComponent
 }
 
-const Jumbotron: React.FC<JumbotronProps> = (props: JumbotronProps) => {
+const Jumbotron = ( props : JumbotronProps) => {
     return (
         <section id="intro" className="bg-center bg-cover bg-no-repeat bg-[url('/vegetables.jpg')] bg-blend-multiply">
             <div className="px-4 max-w-3xl py-24 lg:py-36">

@@ -10,9 +10,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ post }: BlogCardProps) => {
     return (
         <Link href={`/blog/${post.slug}`}>
             <div className="blog-card m-3 bg-white border border-gray-200 rounded-3xl shadow dark:bg-white-800 dark:border-gray-100">
-                <a href="#">
-                    <Image className="rounded-t-3xl max-h-44 object-cover" src={post.image} alt="" width="600" height="100" />
-                </a>
+                <Image className="rounded-t-3xl max-h-44 object-cover" src={post.image} alt="" width="600" height="100" />
                 <div className="px-6 py-2">
                     <div className="flex justify-between">
                         <h5 className="mt-4 mb-2 text-sm font-bold tracking-tight text-gray-900">{post.title}</h5>
