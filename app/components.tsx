@@ -15,14 +15,35 @@ const Components = {
         contact: Contact
 };
 
-export default block => {
-    // console.log(Components);
-    const blockName = (block.component).toLowerCase();
+interface BlockProps {
+    button: string,
+    buttonLink: string,
+    component: string,
+    description: string,
+    details: Array<{
+      id: string; 
+      title: string; 
+      date: string; 
+      description: string; 
+      body: string; 
+      image: string;
+    }>
+    id: string,
+    image: string,
+    sectionName: string,
+    title: string
+}
 
-    if (typeof Components[blockName] !== "undefined") {
-        return React.createElement(Components[blockName], {
+export default (block: BlockProps) => {
+
+    const blockName = block ? (block.component).toLowerCase() : "";
+
+    const componentBlock = Components[blockName as keyof typeof Components];
+
+    if (typeof componentBlock !== "undefined") {
+        return React.createElement(componentBlock, {
             key: block.id,
-            block: block
+            block
         });
     }
     return React.createElement(

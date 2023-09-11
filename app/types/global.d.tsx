@@ -9,13 +9,19 @@ declare global {
     component: string,
     description: string,
     details: Array<{
-      id: Key | null | undefined; title: string; date: string; description: string; body: string; image: string;
+      id: string; 
+      title: string; 
+      date: string; 
+      description: string; 
+      body: string; 
+      image: string;
     }>
     id: string,
     image: string,
     sectionName: string,
     title: string
   }
+  
   interface IPost {
     slug?: string,
     image: string,
