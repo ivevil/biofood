@@ -1,37 +1,32 @@
-import Link from 'next/link';
+'use client';
+// import Link from 'next/link';
 import Image from 'next/image';
 import MainNavigationItem from './UI/MainNavigationItem';
 import { useEffect, useState } from 'react';
+import { useMediaQuery } from '@/app/customHooks/useMediaQuery';
 
-function MainNavigation(props: any) {
+function MainNavigation() {
 
     const [stickyClass, setStickyClass] = useState('bg-transparent');
     const [isActive, setActive] = useState(true);
     let [toggleClass, settoggleClass] = useState('hidden');
+    const isLargerDevice = useMediaQuery(
+        "only screen and (min-width : 769px)"
+      );
 
-    toggleClass = window.innerWidth > 768 ? 'hidden' : '';
+    toggleClass = isLargerDevice ? 'hidden' : '';
 
     useEffect(() => {
-        window.addEventListener('scroll', stickNavbar);
-
-        return () => {
-            window.removeEventListener('scroll', stickNavbar);
-        };
+        stickNavbar();
     }, []);
 
     const stickNavbar = () => {
-        if (window !== undefined) {
-            let windowHeight = window.scrollY;
-            windowHeight > 0 ? setStickyClass('bg-white fixed top-0 left-0 z-50') : setStickyClass('bg-transparent');
-        }
+            isLargerDevice ? setStickyClass('bg-white fixed top-0 left-0 z-50') : setStickyClass('bg-transparent');
     };
 
     const toggleClassf = () => {
-        if (window !== undefined) {
-            let windowHeight = window.scrollY;
-            windowHeight > 768 ? settoggleClass('md:hidden') : settoggleClass('');
+            isLargerDevice ? settoggleClass('md:hidden') : settoggleClass('');
             setActive(!isActive);
-        }
     };
 
     const closeMenu = () => {
