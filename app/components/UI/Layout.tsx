@@ -3,11 +3,11 @@ import Footer from '@/app/components/Footer';
 
 function Layout(props: any) {
   return (
-    <div>
+    <>
       <MainNavigation />
       <main>{props.children}</main>
       <Footer />
-    </div>
+    </>
   );
 }
 

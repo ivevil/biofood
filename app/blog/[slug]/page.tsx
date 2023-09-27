@@ -1,11 +1,19 @@
 'use client';
+import Footer from '@/app/components/Footer';
+import MainNavigation from '@/app/components/MainNavigation';
+import Seo from '@/app/components/Seo';
 import Layout from '@/app/components/UI/Layout';
+import { roboto } from '@/app/utils/fonts';
 import { useEffect, useState } from 'react';
+
+type Props = {
+  slug: string;
+};
 
 export default function Page({
   params,
 }: {
-  params: { slug: string; }
+  params: Props
 }) {
 
   const [postData, setPostData] = useState<any | null>(null);
@@ -21,7 +29,10 @@ export default function Page({
 
   if (!currentPost) return <Layout />;
   return (
-    <Layout>
+    <>
+    <Seo title={currentPost.title} description={currentPost.description} keywords={currentPost.keywords} />
+    <body className={roboto.className}>
+    <MainNavigation />
       <main className="pb-16 lg:pb-24 pt-20 bg-white antialiased">
         <div className="flex justify-between mx-auto">
           <article className="mx-auto w-full format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
@@ -45,7 +56,9 @@ export default function Page({
           </article>
         </div>
       </main>
-    </Layout>
+      <Footer />
+      </body>
+      </>
   )
 }
 
