@@ -4,9 +4,10 @@ type Props = {
     title: string;
     description: string;
     keywords: string;
+    ogimage: string;
   }
 
-function Seo({ title, description, keywords } : Props) {
+function Seo({ title, description, keywords, ogimage } : Props) {
     return (
      <head>
        <title>{title}</title>
@@ -15,7 +16,7 @@ function Seo({ title, description, keywords } : Props) {
        <meta name="keywords" content={keywords} />
        <meta property="og:title" content={title} />
        <meta property="og:description" content={description} />
-       <meta property="og:image" content="/bio-logo.png" />
+       <meta property="og:image" content={ogimage} />
      </head>
     )
   }
