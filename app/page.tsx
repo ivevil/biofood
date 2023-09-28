@@ -17,7 +17,7 @@ const Home: React.FC = () => {
   if (!data) return <Loading />;
   return (
     <>
-    <Seo title="Bio Food - Try out it today" description="We make sure You eat Healthy food. Every day, every night. So fast at your table." keywords="Bio foods, Bio organic products, Bio food products, Bio food company, Bio organic shop, Bio about food, Bio for food, Bio products food, Bio food shop, Bio in food, Bio organic market, Bio organic store, Bio veggies, Bio food online shop, Bio food market" ogimage="/bio-logo.png" />
+    <Seo title="Bio Food - Try out it today" description="We make sure You eat Healthy food. Every day, every night. So fast at your table." keywords="Bio foods, Bio organic products, Bio food products, Bio food company, Bio organic shop, Bio about food, Bio for food, Bio products food, Bio food shop, Bio in food, Bio organic market, Bio organic store, Bio veggies, Bio food online shop, Bio food market" ogimage="https://biofood.vercel.app/bio-logo.png" />
     <Layout>
         {data.content.map((block : any) => Components(block))}
       </Layout>

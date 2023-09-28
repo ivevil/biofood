@@ -30,7 +30,7 @@ export default function Page({
   if (!currentPost) return <Layout />;
   return (
     <>
-    <Seo title={currentPost.title} description={currentPost.description} keywords={currentPost.keywords} ogimage={currentPost.image} />
+    <Seo title={currentPost.title} description={currentPost.description} keywords={currentPost.keywords} ogimage={`https://biofood.vercel.app${currentPost.image}`} />
     <body className={roboto.className}>
     <MainNavigation />
       <main className="pb-16 lg:pb-24 pt-20 bg-white antialiased">
