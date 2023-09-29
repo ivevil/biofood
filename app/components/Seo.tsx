@@ -1,5 +1,3 @@
-import Head from "next/head";
-
 type Props = {
     title: string;
     description: string;
