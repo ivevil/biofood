@@ -1,10 +1,10 @@
 import React from "react";
-import Jumbotron from './components/UI/Jumbotron'
-import Contact from './components/Contact'
-import About from './components/About'
-import Services from './components/Services'
-import Blog from './components/Blog'
-import Statistics from "./components/Statistics";
+import Jumbotron from '../components/UI/Jumbotron'
+import Contact from '../components/Contact'
+import About from '../components/About'
+import Services from '../components/Services'
+import Blog from '../components/Blog'
+import Statistics from "../components/Statistics";
 
 const Components = {
         jumbotron: Jumbotron,
