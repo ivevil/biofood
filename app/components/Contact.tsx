@@ -9,7 +9,7 @@ interface ContactProps {
 const Contact = ( props : ContactProps) => {
     return (
         <div className="contact bg-orange-300" id="contact">
-            <Heading textColor="orange" textPosition="left">CONTACT</Heading>
+            <Heading textColor="white" textPosition="left">CONTACT</Heading>
             <div className="px-4 mx-auto max-w-sm flex flex-col">
                 <h3 className={`${poppins.className} w-full font-bold text-2xl`} dangerouslySetInnerHTML={{ __html: props.block.description.replace(/(<? *script)/gi, 'illegalscript') }}></h3>
             </div>

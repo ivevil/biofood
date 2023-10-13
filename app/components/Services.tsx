@@ -8,7 +8,7 @@ interface ServicesProps {
 const Services = ( props : ServicesProps) => {
     return (
         <div className="services bg-bio-orange sm:p-10" id="services">
-            <Heading textPosition="right" textColor="lime">{props.block.title}</Heading>
+            <Heading textPosition="right" textColor="white">{props.block.title}</Heading>
             <div className="sm:max-w-6xl mt-10 mx-auto">
                 <div className="grid sm:grid-cols-2 sm:gap-2 sm:-mt-32">
                     {props.block.details.map((detail, index) => {
